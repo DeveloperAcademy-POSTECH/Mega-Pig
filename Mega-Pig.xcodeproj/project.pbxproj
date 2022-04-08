@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BB71E7927FF3A0900CAC9EE /* DietLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB71E7827FF3A0900CAC9EE /* DietLogView.swift */; };
+		7B4F98F52800C4B70004C5BF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F98F42800C4B70004C5BF /* CameraView.swift */; };
+		7B4F98F72800C4C30004C5BF /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F98F62800C4C30004C5BF /* CheckListView.swift */; };
 		F5600EB527FECAF60088B771 /* Mega_PigApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5600EB427FECAF60088B771 /* Mega_PigApp.swift */; };
-		F5600EB727FECAF60088B771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5600EB627FECAF60088B771 /* ContentView.swift */; };
+		F5600EB727FECAF60088B771 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5600EB627FECAF60088B771 /* HomeView.swift */; };
 		F5600EB927FECAF60088B771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5600EB827FECAF60088B771 /* Assets.xcassets */; };
 		F5600EBC27FECAF60088B771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5600EBB27FECAF60088B771 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7BB71E7827FF3A0900CAC9EE /* DietLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietLogView.swift; sourceTree = "<group>"; };
+		7B4F98F42800C4B70004C5BF /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7B4F98F62800C4C30004C5BF /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
 		F5600EB127FECAF60088B771 /* Mega-Pig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mega-Pig.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5600EB427FECAF60088B771 /* Mega_PigApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mega_PigApp.swift; sourceTree = "<group>"; };
-		F5600EB627FECAF60088B771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5600EB627FECAF60088B771 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F5600EB827FECAF60088B771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5600EBB27FECAF60088B771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,8 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				F5600EB427FECAF60088B771 /* Mega_PigApp.swift */,
-				F5600EB627FECAF60088B771 /* ContentView.swift */,
-				7BB71E7827FF3A0900CAC9EE /* DietLogView.swift */,
+				F5600EB627FECAF60088B771 /* HomeView.swift */,
 				F5600EB827FECAF60088B771 /* Assets.xcassets */,
 				F5600EBA27FECAF60088B771 /* Preview Content */,
 			);
@@ -66,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				F5600EBB27FECAF60088B771 /* Preview Assets.xcassets */,
+				7B4F98F42800C4B70004C5BF /* CameraView.swift */,
+				7B4F98F62800C4C30004C5BF /* CheckListView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5600EB727FECAF60088B771 /* ContentView.swift in Sources */,
-				7BB71E7927FF3A0900CAC9EE /* DietLogView.swift in Sources */,
+				7B4F98F52800C4B70004C5BF /* CameraView.swift in Sources */,
+				F5600EB727FECAF60088B771 /* HomeView.swift in Sources */,
 				F5600EB527FECAF60088B771 /* Mega_PigApp.swift in Sources */,
+				7B4F98F72800C4C30004C5BF /* CheckListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +275,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mega-Pig/Preview Content\"";
-				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				DEVELOPMENT_TEAM = 572FBL972Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MegaPigApp의 카메라 접근 권한을 허용합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "developer.Toby.Mega-Pig";
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.ada2022.Mega-Pig";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,9 +305,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Mega-Pig/Preview Content\"";
-				DEVELOPMENT_TEAM = P2UJWPTGRX;
+				DEVELOPMENT_TEAM = 572FBL972Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "MegaPigApp의 카메라 접근 권한을 허용합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "developer.Toby.Mega-Pig";
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.ada2022.Mega-Pig";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
