@@ -7,11 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
 		AA7871B0E5F163824201B202 /* Pods_Mega_Pig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E046CE381845BEA00A9238C2 /* Pods_Mega_Pig.framework */; };
+		361C7ACB2803F6C0004CFB73 /* TournamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C7ACA2803F6C0004CFB73 /* TournamentView.swift */; };
+		361C7ACD2803F72D004CFB73 /* TournamentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C7ACC2803F72D004CFB73 /* TournamentResult.swift */; };
+		361C7ACF2803F77D004CFB73 /* TournamentWinningRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C7ACE2803F77D004CFB73 /* TournamentWinningRate.swift */; };
+		361C7AD12803F7BD004CFB73 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C7AD02803F7BD004CFB73 /* BarChart.swift */; };
+		361C7ADD2803FCED004CFB73 /* TournamentNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C7ADC2803FCED004CFB73 /* TournamentNavigation.swift */; };
+		361C7AE128040C64004CFB73 /* TournamentTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C7AE028040C64004CFB73 /* TournamentTimer.swift */; };
+		36DA16C3280676990066AB75 /* TournamentFinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA16C2280676990066AB75 /* TournamentFinishView.swift */; };
+		3A33807F2806B74D00C0DDEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A33807E2806B74D00C0DDEA /* GoogleService-Info.plist */; };
+		3A3380832806E86D00C0DDEA /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3380822806E86D00C0DDEA /* MyPageView.swift */; };
+		3A98D0342806F72100B153D6 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A98D0332806F72100B153D6 /* EditView.swift */; };
+		3A98D0362806F72C00B153D6 /* TermsOfUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A98D0352806F72C00B153D6 /* TermsOfUseView.swift */; };
+		3AAFADEC27FFF17F004741C0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFADEB27FFF17F004741C0 /* MainTabView.swift */; };
+		3AAFADF028002107004741C0 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFADEF28002107004741C0 /* DailyView.swift */; };
+		3AAFADF228002A5D004741C0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFADF128002A5D004741C0 /* TestView.swift */; };
+		3ADFD6752800727900B482FE /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADFD6742800727900B482FE /* CalendarView.swift */; };
+		3AFB62332803DB510051BEA7 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB62322803DB510051BEA7 /* PieSliceView.swift */; };
+		787231092807377500600438 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787231082807377500600438 /* Ranking.swift */; };
+		78D506082803FC0500616988 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 78D506072803FC0500616988 /* FirebaseAuth */; };
+		78FF6E7B27FF0468000B044C /* login_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF6E7A27FF0468000B044C /* login_View.swift */; };
+		78FF6E7D27FF0CF3000B044C /* signup_email_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF6E7C27FF0CF3000B044C /* signup_email_View.swift */; };
+		78FF6E8027FF18D1000B044C /* find_Pw_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF6E7F27FF18D1000B044C /* find_Pw_View.swift */; };
 		F5600EB527FECAF60088B771 /* Mega_PigApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5600EB427FECAF60088B771 /* Mega_PigApp.swift */; };
 		F5600EB727FECAF60088B771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5600EB627FECAF60088B771 /* ContentView.swift */; };
 		F5600EB927FECAF60088B771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5600EB827FECAF60088B771 /* Assets.xcassets */; };
 		F5600EBC27FECAF60088B771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5600EBB27FECAF60088B771 /* Preview Assets.xcassets */; };
+
 		F5AD8B7C2805DFE800BD7E90 /* ReadReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AD8B7B2805DFE800BD7E90 /* ReadReceipt.swift */; };
 		F5AD8B7F2805E06800BD7E90 /* BuguerKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AD8B7E2805E06800BD7E90 /* BuguerKing.swift */; };
 /* End PBXBuildFile section */
@@ -20,13 +43,47 @@
 		388A9B735FC04C0CDB21CB0B /* Pods-Mega-Pig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mega-Pig.debug.xcconfig"; path = "Target Support Files/Pods-Mega-Pig/Pods-Mega-Pig.debug.xcconfig"; sourceTree = "<group>"; };
 		B55F4E562BB7BC08BCEC51A3 /* Pods-Mega-Pig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mega-Pig.release.xcconfig"; path = "Target Support Files/Pods-Mega-Pig/Pods-Mega-Pig.release.xcconfig"; sourceTree = "<group>"; };
 		E046CE381845BEA00A9238C2 /* Pods_Mega_Pig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mega_Pig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+
+		F5E988572807F3A900B0402A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E988562807F3A900B0402A /* ImagePicker.swift */; };
+		F5E988592807FBF100B0402A /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E988582807FBF100B0402A /* CameraView.swift */; };
+		F5E9885B280801A700B0402A /* EatenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9885A280801A700B0402A /* EatenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		361C7ACA2803F6C0004CFB73 /* TournamentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentView.swift; sourceTree = "<group>"; };
+		361C7ACC2803F72D004CFB73 /* TournamentResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentResult.swift; sourceTree = "<group>"; };
+		361C7ACE2803F77D004CFB73 /* TournamentWinningRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentWinningRate.swift; sourceTree = "<group>"; };
+		361C7AD02803F7BD004CFB73 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		361C7ADC2803FCED004CFB73 /* TournamentNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentNavigation.swift; sourceTree = "<group>"; };
+		361C7AE028040C64004CFB73 /* TournamentTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentTimer.swift; sourceTree = "<group>"; };
+		36DA16C2280676990066AB75 /* TournamentFinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentFinishView.swift; sourceTree = "<group>"; };
+		3A33807E2806B74D00C0DDEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A3380822806E86D00C0DDEA /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		3A98D0332806F72100B153D6 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		3A98D0352806F72C00B153D6 /* TermsOfUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseView.swift; sourceTree = "<group>"; };
+		3AAFADEB27FFF17F004741C0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3AAFADEF28002107004741C0 /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
+		3AAFADF128002A5D004741C0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		3ADFD6742800727900B482FE /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3AFB62322803DB510051BEA7 /* PieSliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		787231082807377500600438 /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		78FF6E7A27FF0468000B044C /* login_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_View.swift; sourceTree = "<group>"; };
+		78FF6E7C27FF0CF3000B044C /* signup_email_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup_email_View.swift; sourceTree = "<group>"; };
+		78FF6E7F27FF18D1000B044C /* find_Pw_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = find_Pw_View.swift; sourceTree = "<group>"; };
+
 		F5600EB127FECAF60088B771 /* Mega-Pig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mega-Pig.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5600EB427FECAF60088B771 /* Mega_PigApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mega_PigApp.swift; sourceTree = "<group>"; };
 		F5600EB627FECAF60088B771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5600EB827FECAF60088B771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5600EBB27FECAF60088B771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+
 		F5AD8B7B2805DFE800BD7E90 /* ReadReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadReceipt.swift; sourceTree = "<group>"; };
 		F5AD8B7E2805E06800BD7E90 /* BuguerKing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuguerKing.swift; sourceTree = "<group>"; };
+
+		F5E988562807F3A900B0402A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F5E988582807FBF100B0402A /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		F5E9885A280801A700B0402A /* EatenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatenView.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +91,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				AA7871B0E5F163824201B202 /* Pods_Mega_Pig.framework in Frameworks */,
+
+				78D506082803FC0500616988 /* FirebaseAuth in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
 		0584CC2A67D167350B4F2900 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +118,16 @@
 				B55F4E562BB7BC08BCEC51A3 /* Pods-Mega-Pig.release.xcconfig */,
 			);
 			path = Pods;
+
+		78FF6E7E27FF18A2000B044C /* login_Views */ = {
+			isa = PBXGroup;
+			children = (
+				78FF6E7C27FF0CF3000B044C /* signup_email_View.swift */,
+				78FF6E7A27FF0468000B044C /* login_View.swift */,
+				78FF6E7F27FF18D1000B044C /* find_Pw_View.swift */,
+			);
+			path = login_Views;
+
 			sourceTree = "<group>";
 		};
 		F5600EA827FECAF60088B771 = {
@@ -79,12 +151,36 @@
 		F5600EB327FECAF60088B771 /* Mega-Pig */ = {
 			isa = PBXGroup;
 			children = (
+
 				F5AD8B7D2805E06800BD7E90 /* Info */,
 				F5AD8B7A2805DFE800BD7E90 /* OCR */,
+
+				3A33807E2806B74D00C0DDEA /* GoogleService-Info.plist */,
+				3AFB62322803DB510051BEA7 /* PieSliceView.swift */,
+				3AAFADF128002A5D004741C0 /* TestView.swift */,
+				3AAFADEF28002107004741C0 /* DailyView.swift */,
+				3AAFADEB27FFF17F004741C0 /* MainTabView.swift */,
+				3A3380822806E86D00C0DDEA /* MyPageView.swift */,
+				78FF6E7E27FF18A2000B044C /* login_Views */,
+
 				F5600EB427FECAF60088B771 /* Mega_PigApp.swift */,
 				F5600EB627FECAF60088B771 /* ContentView.swift */,
+				361C7ACA2803F6C0004CFB73 /* TournamentView.swift */,
+				361C7ADC2803FCED004CFB73 /* TournamentNavigation.swift */,
+				361C7AE028040C64004CFB73 /* TournamentTimer.swift */,
+				361C7ACC2803F72D004CFB73 /* TournamentResult.swift */,
+				361C7ACE2803F77D004CFB73 /* TournamentWinningRate.swift */,
+				361C7AD02803F7BD004CFB73 /* BarChart.swift */,
+				36DA16C2280676990066AB75 /* TournamentFinishView.swift */,
+				3ADFD6742800727900B482FE /* CalendarView.swift */,
 				F5600EB827FECAF60088B771 /* Assets.xcassets */,
 				F5600EBA27FECAF60088B771 /* Preview Content */,
+				3A98D0332806F72100B153D6 /* EditView.swift */,
+				3A98D0352806F72C00B153D6 /* TermsOfUseView.swift */,
+				787231082807377500600438 /* Ranking.swift */,
+				F5E988562807F3A900B0402A /* ImagePicker.swift */,
+				F5E988582807FBF100B0402A /* CameraView.swift */,
+				F5E9885A280801A700B0402A /* EatenView.swift */,
 			);
 			path = "Mega-Pig";
 			sourceTree = "<group>";
@@ -133,6 +229,9 @@
 			dependencies = (
 			);
 			name = "Mega-Pig";
+			packageProductDependencies = (
+				78D506072803FC0500616988 /* FirebaseAuth */,
+			);
 			productName = "Mega-Pig";
 			productReference = F5600EB127FECAF60088B771 /* Mega-Pig.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +260,9 @@
 				Base,
 			);
 			mainGroup = F5600EA827FECAF60088B771;
+			packageReferences = (
+				78D506062803FC0500616988 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F5600EB227FECAF60088B771 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,6 +279,7 @@
 			files = (
 				F5600EBC27FECAF60088B771 /* Preview Assets.xcassets in Resources */,
 				F5600EB927FECAF60088B771 /* Assets.xcassets in Resources */,
+				3A33807F2806B74D00C0DDEA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +349,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAFADF228002A5D004741C0 /* TestView.swift in Sources */,
+				3A98D0362806F72C00B153D6 /* TermsOfUseView.swift in Sources */,
+				3ADFD6752800727900B482FE /* CalendarView.swift in Sources */,
+				78FF6E7B27FF0468000B044C /* login_View.swift in Sources */,
+				F5E9885B280801A700B0402A /* EatenView.swift in Sources */,
+				787231092807377500600438 /* Ranking.swift in Sources */,
+				78FF6E7D27FF0CF3000B044C /* signup_email_View.swift in Sources */,
 				F5600EB727FECAF60088B771 /* ContentView.swift in Sources */,
+
 				F5AD8B7C2805DFE800BD7E90 /* ReadReceipt.swift in Sources */,
 				F5AD8B7F2805E06800BD7E90 /* BuguerKing.swift in Sources */,
+
+				361C7ACD2803F72D004CFB73 /* TournamentResult.swift in Sources */,
+
 				F5600EB527FECAF60088B771 /* Mega_PigApp.swift in Sources */,
+				361C7ACB2803F6C0004CFB73 /* TournamentView.swift in Sources */,
+				361C7AD12803F7BD004CFB73 /* BarChart.swift in Sources */,
+				361C7ADD2803FCED004CFB73 /* TournamentNavigation.swift in Sources */,
+				361C7AE128040C64004CFB73 /* TournamentTimer.swift in Sources */,
+				F5E988572807F3A900B0402A /* ImagePicker.swift in Sources */,
+				36DA16C3280676990066AB75 /* TournamentFinishView.swift in Sources */,
+				F5E988592807FBF100B0402A /* CameraView.swift in Sources */,
+				361C7ACF2803F77D004CFB73 /* TournamentWinningRate.swift in Sources */,
+				3AFB62332803DB510051BEA7 /* PieSliceView.swift in Sources */,
+				3A98D0342806F72100B153D6 /* EditView.swift in Sources */,
+				3A3380832806E86D00C0DDEA /* MyPageView.swift in Sources */,
+				F5600EB527FECAF60088B771 /* Mega_PigApp.swift in Sources */,
+				3AAFADF028002107004741C0 /* DailyView.swift in Sources */,
+				3AAFADEC27FFF17F004741C0 /* MainTabView.swift in Sources */,
+				78FF6E8027FF18D1000B044C /* find_Pw_View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +511,10 @@
 				DEVELOPMENT_TEAM = P2UJWPTGRX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -412,6 +545,10 @@
 				DEVELOPMENT_TEAM = P2UJWPTGRX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +589,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78D506062803FC0500616988 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78D506072803FC0500616988 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78D506062803FC0500616988 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5600EA927FECAF60088B771 /* Project object */;
 }
