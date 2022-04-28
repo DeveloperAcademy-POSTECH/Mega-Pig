@@ -19,7 +19,7 @@ struct Ranking: View {
                        Image("userImg").resizable()
                            .aspectRatio(contentMode: .fit)
                            .frame(width: 180, height: 150)
-                       Text("1등 홍x동")
+                       Text("1등 나일등")
                         .font(.system(size:20, weight: .semibold, design: .rounded))
                                                        .foregroundColor(.black)
                    }
@@ -29,7 +29,7 @@ struct Ranking: View {
                        Image("userImg").resizable()
                            .aspectRatio(contentMode: .fit)
                            .frame(width: 180, height: 150)
-                       Text("2등 길x동")
+                       Text("2등 너이등")
                                                        .font(.system(size:20, weight: .semibold, design: .rounded))
                                                        .foregroundColor(.black)
                    }
@@ -37,7 +37,7 @@ struct Ranking: View {
                        Image("userImg").resizable()
                            .aspectRatio(contentMode: .fit)
                            .frame(width: 180, height: 150)
-                       Text("3등 홍x길")
+                       Text("3등 나삼등")
                                                        .font(.system(size:20, weight: .semibold, design: .rounded))
                                                        .foregroundColor(.black)
                    }
@@ -116,29 +116,29 @@ struct ProfileList: Identifiable, Hashable{
 }
 
 let profilelists = [
-    ProfileList(image: "userImg.orange", name: "김x현",number: 4,point:390),
-    ProfileList(image: "userImg.orange", name: "박x현",number: 5,point:385),
-    ProfileList(image: "userImg.orange", name: "김x흠",number: 6,point:385),
-    ProfileList(image: "userImg.orange", name: "이x태",number: 7,point:370),
-    ProfileList(image: "userImg.orange", name: "최x캐",number: 8,point:365),
-    ProfileList(image: "userImg.orange", name: "박x빈",number: 9,point:350),
-    ProfileList(image: "userImg.orange", name: "삼x살",number: 10,point:350),
-    ProfileList(image: "userImg.red", name: "이x치",number: 11,point:350),
-    ProfileList(image: "userImg.red", name: "황x현",number: 12,point:350),
-    ProfileList(image: "userImg.red", name: "한x희",number: 13,point:350),
-    ProfileList(image: "userImg.red", name: "최x호",number: 14,point:340),
-    ProfileList(image: "userImg.red", name: "김x한",number: 15,point:335),
-    ProfileList(image: "userImg.red", name: "조x산",number: 16,point:330),
-    ProfileList(image: "userImg.red", name: "김x치",number: 17,point:330),
-    ProfileList(image: "userImg.red", name: "자x치",number: 18,point:320),
-    ProfileList(image: "userImg.red", name: "애x플",number: 19,point:320),
-    ProfileList(image: "userImg.red", name: "사x랑",number: 20,point:310)
+    ProfileList(image: "userImg.orange", name: "피카츄",number: 4,point:390),
+    ProfileList(image: "userImg.orange", name: "라이츄",number: 5,point:385),
+    ProfileList(image: "userImg.orange", name: "파이리",number: 6,point:385),
+    ProfileList(image: "userImg.orange", name: "꼬북이",number: 7,point:370),
+    ProfileList(image: "userImg.orange", name: "치느님",number: 8,point:365),
+    ProfileList(image: "userImg.orange", name: "마이키",number: 9,point:350),
+    ProfileList(image: "userImg.orange", name: "마우스",number: 10,point:350),
+    ProfileList(image: "userImg.red", name: "이로하",number: 11,point:350),
+    ProfileList(image: "userImg.red", name: "알로에",number: 12,point:350),
+    ProfileList(image: "userImg.red", name: "니랑나",number: 13,point:350),
+    ProfileList(image: "userImg.red", name: "날아드",number: 14,point:340),
+    ProfileList(image: "userImg.red", name: "펩시제",number: 15,point:335),
+    ProfileList(image: "userImg.red", name: "라로콜",number: 16,point:330),
+    ProfileList(image: "userImg.red", name: "김치도",number: 17,point:330),
+    ProfileList(image: "userImg.red", name: "자구다",number: 18,point:320),
+    ProfileList(image: "userImg.red", name: "디그다",number: 19,point:320),
+    ProfileList(image: "userImg.red", name: "닥트다",number: 20,point:310)
 ]
 
 struct Footer: View {
     var body: some View {
         HStack{
-            Label("8등 최x캐        -        365점                   ",image:"userImg.orange")
+            Label("8등 치느님        -        365점                   ",image:"userImg.orange")
                 .padding()
                 .background(Color.accentColor)
                 .cornerRadius(10)

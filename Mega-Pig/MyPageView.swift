@@ -30,7 +30,7 @@ struct MyPageView: View {
                        {
                            HStack(alignment: .center, spacing: 0)
                            {
-                               Image("userImg").resizable().frame(width: width*0.2, height: width * 0.2, alignment: .center).padding(width * 0.05)
+                               Image("userImg.orange").resizable().frame(width: width*0.2, height: width * 0.2, alignment: .center).padding(width * 0.05)
                                VStack{
                                    Text("환영합니다!").frame(width: width * 0.5, height: topHeight * 0.14, alignment:.leading).font(.system(size: 14))
                                    Text(userName).frame(width: width * 0.5, height: topHeight * 0.2, alignment:.leading).font(.system(size: 20))
