@@ -72,7 +72,7 @@ struct login_View: View {
             else{
                 NavigationView{real_login_View()}
                     .onAppear{
-                        viewModel.signedIn=viewModel.isSignedIn
+                        viewModel.signedIn=true
                     }
             }
     }

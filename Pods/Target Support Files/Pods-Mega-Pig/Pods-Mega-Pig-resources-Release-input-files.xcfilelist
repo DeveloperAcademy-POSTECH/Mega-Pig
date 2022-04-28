@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Mega-Pig/Pods-Mega-Pig-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/MLKitTextRecognition/LatinOCRResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/MLKitTextRecognitionKorean/KoreanOCRResources.bundle

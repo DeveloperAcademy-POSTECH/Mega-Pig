@@ -14,6 +14,10 @@ struct ContentView: View {
     
     @EnvironmentObject var viewModel: AppViewModel
     @State public var selection = AppViewModel().selection
+	
+	@State private var image : UIImage?
+	
+	
     var body: some View {
         
         GeometryReader { geometry in
@@ -30,11 +34,13 @@ struct ContentView: View {
                                 Image(systemName: "network")
                                 Text("WorldCup")
                             }.tag(2)
-                            TestView().frame(width: geometry.size.width, height: geometry.size.height * 0.9, alignment: .center)
+							CameraView(image: $image, selection: $selection).frame(width: geometry.size.width, height: geometry.size.height * 0.9, alignment: .center)
                             .tabItem {
-                                Image(systemName: "camera")
-                                Text("Camera")
-                            }.tag(3)
+								Image(systemName: "camera")
+								Text("Camera")
+								}
+							.tag(3)
+							
                             Ranking().frame(width: geometry.size.width, height: geometry.size.height * 0.9, alignment: .center)
                             .tabItem {
                                 Image(systemName: "1.circle")
@@ -45,6 +51,12 @@ struct ContentView: View {
                                 Image(systemName: "person")
                                 Text("My Page")
                             }.tag(5)
+							
+//							EatenView().frame(width: geometry.size.width, height: geometry.size.height * 0.9, alignment: .center)
+//							.tabItem{
+//								Text("Test")
+//							}.tag(6)
+								
                         }
                     }.frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
                 }
