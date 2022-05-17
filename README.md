@@ -19,7 +19,7 @@
 ![KYO_ENG 005](https://user-images.githubusercontent.com/96641477/163713697-cc5b9b9e-31e8-4cd0-ae0a-3e1a7efbf68e.jpeg)
 ![KYO_ENG 006](https://user-images.githubusercontent.com/96641477/163713699-3e2b4a6b-e5a3-44f2-a46a-358294bf1803.jpeg)
 ![KYO_ENG 007](https://user-images.githubusercontent.com/96641477/163713700-aab696c6-e2d9-4ca2-923a-9a89509caccf.jpeg)
-<img src="https://media.githubusercontent.com/media/Kyo-Pig/Mega-Pig/main/team9.gif" alt="App simulating gif">
+<img src="https://media.githubusercontent.com/media/DeveloperAcademy-POSTECH/Mega-Pig/main/team9.gif" alt="App simulating gif">
 
 ## 구현 기능
 **Dodo(Dohan Kim)**
