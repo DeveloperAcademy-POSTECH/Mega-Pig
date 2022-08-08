@@ -4,7 +4,7 @@
 ### <div align = "center">안녕하세요, **Team KYO**입니다</div>
 |Dodo(Dohan Kim)|San(Sungsan Joh)|Toby(Inho Choi)|Jessica(Yeonhee Han)|EllyJ(Jeonghyeon Hwang)|
 |:---:|:---:|:---:|:---:|:---:|
-|![Dodo](https://user-images.githubusercontent.com/96641477/163712071-5e81ff56-2c25-4fd7-b54f-f889d6f9c6bc.png)|![San](https://user-images.githubusercontent.com/96641477/163712046-85122ebf-e811-4b5e-8931-8803becb9d3b.png)|![Toby](https://user-images.githubusercontent.com/96641477/163711975-c2a664cb-dd20-4759-ac09-2f9b1796dbec.png)|![Jessica](https://user-images.githubusercontent.com/96641477/163711978-5950e290-993c-4978-a5be-74f33f8653c3.PNG)|![CE2B4339-1FF7-4D4D-B7C4-69B913B9D361](https://user-images.githubusercontent.com/96641477/163712022-a1019f60-45ba-4921-8c8a-11d4330e9695.jpeg)|
+|![Dodo](https://user-images.githubusercontent.com/96641477/163712071-5e81ff56-2c25-4fd7-b54f-f889d6f9c6bc.png)|![San](https://user-images.githubusercontent.com/96641477/163712046-85122ebf-e811-4b5e-8931-8803becb9d3b.png)|![Toby](https://user-images.githubusercontent.com/96641477/163711975-c2a664cb-dd20-4759-ac09-2f9b1796dbec.png)|![Jessica](https://user-images.githubusercontent.com/96641477/163711978-5950e290-993c-4978-a5be-74f33f8653c3.PNG)|![90d00f9df18822a1cb98c0adc80d92c6-sticker](https://user-images.githubusercontent.com/96641477/183355856-f2a9fdd7-e8f0-4970-842e-9e0896c5a3cd.png)|
 
 ### ⏱ 개발 기간: 2022.03.21 - 2022.04.18
 
